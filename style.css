@@ -10,17 +10,6 @@ body{
     font-weight: bolder;
     text-shadow:2px 2px 5px;                              ;
 }
-.de{
-   margin-right: auto;
-}
-#cd{
-    display: flex;
-    padding-right: 40px;
-    font-variant:initial;
-    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    height: 40;
-    width: 30;
-}
 
 .links{
     gap: 30px;
@@ -61,31 +50,29 @@ body{
 }
 
 .picture{
-    padding: 19%;
+    padding: 10%;
+    gap: 30%;
     text-align: center;
-    gap: 20px;
     display: flex;
+    height:200px ;
+    width: 200px;
 }
 .Project{
     text-align: center;
 }
 .About {
-    text-align: center;
+         text-align: center;
         font-family: "Italianno", cursive;
         font-weight: 400;
-        font-style: normal;
-      
-      
-      
+        font-style: normal;    
 
 }
 .image{
-    display: flex;
-    padding-right: 30px;
     border-radius: 50px;
-    margin-left: 20px;
     padding: 15 px;
     flex-wrap: nowrap;
+    display: flex;
+    padding-right: 30px;
 
 }
 .intro{
@@ -97,4 +84,41 @@ body{
     text-align: center;
 
 }
+@media (max-width: 550px){
+.hamburger{
+    flex-direction: column;
+    gap: 5px;
+}
+.nav-links{
+    display: none;
+    flex-direction: column;
+    border-color: wheat;
+    position: absolute;
+    top: 60px;
+    right: 15px;
+    padding: 15px;
+    border-radius: 8px;
+    list-style-type: none;
+     padding-left: 0;
+}
 
+}
+.Can{
+    display: flex;
+}
+.Card{
+    text-align: center;
+    text-shadow: 200%;
+    
+}
+.project-Card-hover{
+    border-color: aqua;
+}
+.Text{
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.images{
+    flex-wrap:wrap-reverse;
+}
+ 

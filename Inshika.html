@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+     <h1>Welcome to my website !!!</h1>
+
+     <button type="button" onblclick="viewTime()"> Hi</button>
+     <p id="button"></p>
+
+     <button  ondblclick="Textchange()">Click</button>
+     <p id="button1"> Hello</p>
+     
+
+    <script>
+        const user= "Inshika";
+        function Textchange(){
+            document.getElementById("button1").innerHTML ="The text is change.";
+        }
+        function viewTime(){
+            document.getElementById("button").innerHTML="Hi " + user +" today is "+ Date();
+        }
+    </script>
+</body>
+</html>
