@@ -221,7 +221,18 @@ body{
 .scroll{
   text-align: center;
 }
- 
+.Image{
+  height: 300%;
+  width: 200%;
+}
+.project-card img {
+  width: 300px;         /* set the desired width */
+  height: 200px;        /* set the desired height */
+  object-fit: cover;    /* ensures the image fills the area and crops overflow */
+  border-radius: 10px;  /* optional: for rounded corners */
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* optional: adds depth */
+}
+
   
   
   

@@ -20,3 +20,38 @@ function type(){
 }
 
 type();
+
+
+const projects = [
+{
+    Image: "flower3.jpg",
+    title : "Animated Navbar",
+    description :"An animated navigation bar enhances user experience by providing smooth, visually appealing transitions and interactive elements as users explore a website. "
+
+    },
+    {
+        Image:"flower5.jpeg",
+        title:"HTML CSS",
+        description:"HTML provides the structure and content of a webpage, while CSS styles and formats its appearance."
+    },
+    {
+        Image:"flowers2.jpg",
+        title:"Landing page",
+        description:"Landing page is the first impression of a website a focused, visually engaging entry point designed to capture attention and drive affection."
+    },
+];
+
+const container = document.getElementById("project-container");
+
+   projects.forEach(project=> {
+    const card = document.createElement("div");
+    card.className = "project-card";
+    card.innerHTML= `
+    <img src="${project.Image}" alt="${project.title}" / >
+    <h2>${project.title}</h2>
+    <p>${project.description}</p>
+`;
+container.appendChild(card);
+   });
+
+  
