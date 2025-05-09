@@ -47,18 +47,9 @@ body{
 }
 .Contact{
     text-align: center;
+    margin: 200px;
 }
 
-.picture{
-    padding: 10%;
-    gap: 40px;
-    text-align: center;
-    display: flex;
-    height:200px ;
-    width: 200px;
-    margin-block-end: 30%;
-    border: 100%;
-}
 .Project{
     text-align: center;
     
@@ -80,8 +71,8 @@ body{
     flex-wrap:wrap;
     display: flex;
     padding-right: 30px;
-    height: 100%;
-    width: 50%;
+    height: 30%;
+    width: 30%;
 
 }
 .intro{
@@ -93,30 +84,10 @@ body{
     text-align: center;
 
 }
-/*@media (max-width: 550px){
-.hamburger{
-    display: flex;
-    
-}
-.navbar ul{
-    display: none;
-    flex-direction: column;
-    border-color: wheat;
-    position: absolute;
-    top: 60px;
-    right: 15px;
-    padding: 15px;
-    border-radius: 8px;
-    
-}
-.nav-links.active{
-    display: flex;
-
-}
-*/
 .Card{
     text-align: center;
     text-shadow: 200%;
+    margin: 100px;
     
 }
 .project-Card-hover{
@@ -221,19 +192,62 @@ body{
 .scroll{
   text-align: center;
 }
-.Image{
-  height: 300%;
-  width: 200%;
+.project-layout {        
+  object-fit: cover;    
+  border-radius: 10px;  
+  display: flex;
+  border-radius:50px;
+    padding: 5px;
+  margin: 100px;
+    margin-bottom: 20px;
+    padding-right: 20px;
 }
-.project-card img {
-  width: 300px;         /* set the desired width */
-  height: 200px;        /* set the desired height */
-  object-fit: cover;    /* ensures the image fills the area and crops overflow */
-  border-radius: 10px;  /* optional: for rounded corners */
-  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* optional: adds depth */
+img{
+  width: 300px;         
+  height: 200px;
+}
+.image {
+  border-radius: 20px;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  transition: transform 0.3s ease;
+  border: 3px solid #f39c12;
+  padding: 5px;
+  
+}
+.image:hover {
+  transform: scale(1.05);
+}
+.project-card {
+  border-radius: 10px;
+  padding: 15px;
+  text-align: center;
+  width: 320px;
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
-  
+.title{
+  text-align: center;
+  line-break: normal;
+  font-style: oblique;
+
+
+}
+.about-image-container {
+  display: flex;
+  justify-content: center; 
+  align-items: center;   
+  margin: 20px auto;
+}
+.about-image {
+  border-radius: 20px;
+  padding: 5px;
+  margin: 20px;
+  height: auto;
+  width: 200px;
+}
+
+
+
   
   
  
