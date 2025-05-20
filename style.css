@@ -47,7 +47,6 @@ body{
 }
 .Contact{
     text-align: center;
-    margin: 200px;
 }
 
 .Project{
@@ -58,7 +57,7 @@ body{
         font-family: "Italianno", cursive;
         font-weight: 400;
         font-style: normal; 
-        display:block;
+        display:flex;
         text-align: center;
 
 
@@ -73,7 +72,6 @@ body{
     padding-right: 30px;
     height: 30%;
     width: 30%;
-
 }
 .intro{
     text-align: center;
@@ -197,10 +195,8 @@ body{
   border-radius: 10px;  
   display: flex;
   border-radius:50px;
-    padding: 5px;
+  padding: 5px;
   margin: 100px;
-    margin-bottom: 20px;
-    padding-right: 20px;
 }
 img{
   width: 300px;         
@@ -232,6 +228,7 @@ img{
 
 
 }
+
 .about-image-container {
   display: flex;
   justify-content: center; 
@@ -257,14 +254,14 @@ img{
   text-align: center;
 }
 .border{
-  border: 2px solid black;
+  border: 1px solid black;
   padding:10px;
   width:40%;
-  height:60% ;
+  height:60%;
   background-color: lightcyan;
 }
 .border2{
-  border: 2px solid black;
+  border: 1px solid black;
   padding:10px;
   width:40%;
   height: 60%;
@@ -272,8 +269,8 @@ img{
 
 }
 .border3{
-  border: 2px solid black;
-  padding:10px;
+  border: 1px solid black;
+  padding:19px;
   width:40%;
   height: 60%;
   background-color: lightcyan;
@@ -281,7 +278,7 @@ img{
 h1{
   text-align: center;
   text-shadow: rgb(214, 125, 140);
- font-style: oblique;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
 
