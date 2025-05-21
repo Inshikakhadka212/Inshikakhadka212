@@ -7,7 +7,7 @@ hamburger.addEventListener('click', () => {
 });
 
 
-const text = "Hi !! I'm  Ms.I";
+const text = "Hello, I'm Inshika!!";
 const homepage =document.getElementById('homepage');
 let index=0;
 
@@ -30,6 +30,7 @@ const projects = [
     src:" https://inshikakhadka212.github.io/BMI/",
 
     },
+
     {
         Image:"./image/flower1.jpg",
         title:"HTML CSS",

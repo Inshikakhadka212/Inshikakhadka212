@@ -198,8 +198,6 @@ body{
   padding: 5px;
   margin: 100px;
   font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-  box-shadow:0 4px 8px rgba(0, 0, 0, 0.4);
-  background-color:navajowhite;
 }
 img{
   width: 300px;         
@@ -227,7 +225,6 @@ img{
 .title{
   text-align: center;
   line-break: normal;
-  font-style: oblique;
 
 
 }
